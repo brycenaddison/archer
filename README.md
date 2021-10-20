@@ -1,5 +1,7 @@
 # archer
-Simple pygame program.
+since this, it's fun to look back! archer is built on PyGame, and is an
+arcade-style game where the objective is to dodge the projectiles shot at you
+by enemy Cubes while also destroying as many Cubes as you can.
 
 ### Installation
 To play the game:
