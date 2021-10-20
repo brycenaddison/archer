@@ -2,10 +2,15 @@
 Simple pygame program.
 
 ### Installation
-To run the code:
+To play the game:
+- Download the newest installer from the [releases page](https://github.com/brycenaddison/archer/releases/)
+- Just run the installer! All dependencies are included and installed for you.
+
+To run the code in Python:
+- Make sure you have a version of Python 3.6 or newer installed
 - Make sure you have pipenv installed
-- Navigate to the main folder and type `pipenv install`
-- Type `pipenv run start` to open the program
+- Navigate to the main folder and type `pipenv install --python [YOUR_VERSION]`
+- Type `pipenv run archer` to open the program
 
 ### Controls
 `esc`: Quit

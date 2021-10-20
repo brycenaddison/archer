@@ -4,9 +4,16 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+cx-freeze = "*"
+autopep8 = "*"
 
 [packages]
 pygame = "*"
 
+[scripts]
+archer = "python archer.py"
+build = "python setup.py build"
+make_win_installer = "python setup.py bdist_msi"
+
 [requires]
-python_version = "3.7"
+python_version = "3.10.0"
